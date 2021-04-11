@@ -2,13 +2,18 @@ import useD3 from '../utils/d3ref';
 import * as d3 from 'd3';
 
 const TempChart = ({ todayTemps, data }) => {
-  const yMin = todayTemps.min - 5;
+  const yMin = todayTemps.min - 10;
 
   const ref = useD3(
     svg => {
+      svg.selectAll('*').remove();
+      svg.append('g').attr('class', 'plot-area');
+      svg.append('g').attr('class', 'x-axis');
+      svg.append('g').attr('class', 'y-axis');
+
       const height = 110;
       const width = 650;
-      const margin = { top: 20, right: 20, bottom: 20, left: 20 };
+      const margin = { top: 30, right: 20, bottom: 20, left: 20 };
 
       const x = d3
         .scaleTime()
@@ -29,7 +34,7 @@ const TempChart = ({ todayTemps, data }) => {
 
       const xAxis = g =>
         g
-          .attr('transform', `translate(0,${height - margin.bottom})`)
+          .attr('transform', `translate(0,${height - margin.bottom + 2})`)
           .style('color', '#555')
           .style('stroke-width', 0)
           .call(d3.axisBottom(x).tickSize(0));
@@ -85,7 +90,7 @@ const TempChart = ({ todayTemps, data }) => {
           return Math.floor(temp);
         });
     },
-    [data.length]
+    [data]
   );
 
   return (
@@ -97,11 +102,7 @@ const TempChart = ({ todayTemps, data }) => {
         marginRight: '0px',
         marginLeft: '0px',
       }}
-    >
-      <g className="plot-area" />
-      <g className="x-axis" />
-      <g className="y-axis" />
-    </svg>
+    ></svg>
   );
 };
 

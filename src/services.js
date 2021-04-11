@@ -19,4 +19,10 @@ const getAddressGoogleAPI = ({ latitude, longitude }) => {
     });
 };
 
-export { openWeatherAPI, getAddressGoogleAPI };
+const lookupLatLongGoogleAPI = searchString => {
+  return fetch(googleMapsEndpoint(`address=${searchString}`)).then(response =>
+    response.json()
+  );
+};
+
+export { openWeatherAPI, getAddressGoogleAPI, lookupLatLongGoogleAPI };

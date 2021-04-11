@@ -12,7 +12,7 @@ Leverage's free weather information from [OpenWeather API](https://openweatherma
 - Use Chakra UI
 - Use D3
 - Use `fetch`
-- No Tests
+- Use Google Geocoding APIs
 
 #### CRA
 
@@ -20,7 +20,7 @@ Leverage's free weather information from [OpenWeather API](https://openweatherma
 
 #### Chakra UI
 
-[Chakra UI](https://chakra-ui.com/) is a library of components I wanted to learn, as I'd heard a lot of buzz about it. It was a great choice for easy styling. It still demonstrates mastery of CSS and component based design while speeding up development by covering the basics.
+[Chakra UI](https://chakra-ui.com/) is a library of components I wanted to learn, as I'd heard a lot of buzz about it. It is a great choice due to expressive styling shortcuts and composable components that cover the basics like flex and inputs, saving time and effort in terms of "re-inventing the wheel.
 
 #### D3
 
@@ -32,9 +32,13 @@ Did not use [react-d3-library](https://github.com/react-d3-library/react-d3-libr
 
 Fetch is the browser standard way to make API calls. Super simple, no abstraction needed for interacting with public RESTful APIs like OpenWeather and Google Maps.
 
-#### No Tests
+#### Google APIs
 
-No tests written or created for this app, as that wasn't the focus of this project. Please see the wonderful documentation of [React Testing Library]https://testing-library.com/docs/react-testing-library/intro/) for more information on testing.
+Creating an API key in Google Cloud Platform and enabling Geocoding services allowed additional features, like the "pretty print" location name. It was surprisingly easy to implement. See these docs: [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/start). Note the difference between geocoding and reverse geocoding. This project uses both.
+
+> Geocoding is the process of converting addresses (like a street address) into geographic coordinates (like latitude and longitude), which you can use to place markers on a map, or position the map.
+
+> Reverse geocoding is the process of converting geographic coordinates into a human-readable address.
 
 ---
 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import {
+  Button,
   Center,
   ChakraProvider,
   Box,
@@ -11,6 +12,7 @@ import {
   HStack,
   Image,
   extendTheme,
+  BeatLoader,
 } from '@chakra-ui/react';
 
 import TempChart from './components/TempChart';
@@ -18,7 +20,11 @@ import { addSeconds } from 'date-fns';
 import Today from './components/Today';
 import Week from './components/Week';
 import WeatherPlaceholder from './components/WeatherPlaceholder';
-import { openWeatherAPI, getAddressGoogleAPI } from './services';
+import {
+  openWeatherAPI,
+  getAddressGoogleAPI,
+  lookupLatLongGoogleAPI,
+} from './services';
 import sun from './sun.jpg';
 
 const themeWithFont = extendTheme({
@@ -47,12 +53,12 @@ const WeatherTable = ({
   weatherData: { current, hourly, daily },
   givenAddress,
 }) => {
-  // Prepare the data for entry into the temperature chart
+  // Prepare the data for entry into the temperature chart, slice for 24h
   const hourlyTemps = hourly
     .map(({ temp, dt }) => {
       return { temp, dt: addSeconds(new Date(0), dt) };
     })
-    .slice(0, 24);
+    .slice(0, 23);
 
   // 8 days of info come in the `daily` data block from OpenWeather
   // destruct the first day to get information for the <Today> component,
@@ -77,6 +83,8 @@ const App = () => {
   const [currrentLocation, setCurrentLocation] = useState({});
   const [openWeatherData, setOpenWeatherData] = useState({});
   const [addressName, setAddressName] = useState({});
+  const [searchValue, setSearchValue] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(({ coords }) =>
@@ -98,15 +106,29 @@ const App = () => {
     if (latitude && longitude) {
       getAddressGoogleAPI({ latitude, longitude }).then(({ results }) => {
         // Combine the string resulting from the Google API, not ideal, but achieves the text we want
-        // i.e "Richmond, VA"
-        setAddressName(
-          results[0].address_components[1].short_name +
+        // i.e "Richmond, VA". Fall back is lat / long
+        let finalAddressFormat = '' + latitude + longitude;
+        if (results.length > 0) {
+          finalAddressFormat =
+            results[0]?.address_components[1].short_name +
             ', ' +
-            results[0].address_components[2].short_name
-        );
+            results[0]?.address_components[2].short_name;
+        }
+        setAddressName(finalAddressFormat);
       });
     }
   }, [currrentLocation]); // Only run this effect when the currentLocation changes
+
+  const handleSearchButtonClick = () => {
+    setIsLoading(true);
+    lookupLatLongGoogleAPI(searchValue).then(({ results }) => {
+      if (results.length > 0) {
+        const { lat, lng } = results[0].geometry?.location;
+        setCurrentLocation({ latitude: lat, longitude: lng });
+        setTimeout(() => setIsLoading(false), 100); // human readable delay on search button
+      }
+    });
+  };
 
   return (
     <ChakraProvider theme={themeWithFont}>
@@ -117,19 +139,29 @@ const App = () => {
             addressName.length > 0 ? (
               <div>
                 <header>
-                  <HStack>
-                    <Image width={50} src={sun} mb={1} />
+                  <HStack align="center">
+                    <Image width={50} src={sun} mb={2} />
                     <Heading as="h1" size="lg" fontWeight={400} pb={3}>
                       Weather Watcher
                     </Heading>
-                    <div>
+                    <HStack pb={1}>
                       <Input
-                        hidden={true}
-                        value={addressName}
-                        placeholder="NOTUSED"
-                        onChange={({ target: { value } }) => console.log(value)}
+                        size="sm"
+                        placeholder={'Address or Zip'}
+                        value={searchValue}
+                        onChange={({ target: { value } }) =>
+                          setSearchValue(value)
+                        }
                       />
-                    </div>
+                      <Button
+                        colorScheme="blue"
+                        size="sm"
+                        onClick={handleSearchButtonClick}
+                        isLoading={isLoading}
+                      >
+                        Search
+                      </Button>
+                    </HStack>
                   </HStack>
                 </header>
                 {/* This is the "main" component responsible for much of the rendering */}
