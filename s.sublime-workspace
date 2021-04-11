@@ -1,0 +1,762 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dai",
+				"dailyData\twarning"
+			],
+			[
+				"use",
+				"useState\talias"
+			],
+			[
+				"lon",
+				"longitude\tconst"
+			],
+			[
+				"sele",
+				"setMaxListeners\tnode_modules/node:cluster"
+			],
+			[
+				"err",
+				"err"
+			],
+			[
+				"u",
+				"user\tproperty"
+			],
+			[
+				"query",
+				"query\tparameter"
+			],
+			[
+				"upda",
+				"updateQuery"
+			],
+			[
+				"MeQuery",
+				"MeQuery\tsource_modules"
+			],
+			[
+				"flex",
+				"flex-end\tstring"
+			],
+			[
+				"us",
+				"useRouter\tfunction"
+			],
+			[
+				"fetch",
+				"fetchOptions\tproperty"
+			],
+			[
+				"all",
+				"allNums\tparameter"
+			],
+			[
+				"inde",
+				"indexToCheck\tparameter"
+			],
+			[
+				"filter",
+				"filterOutSameFirst\tconst"
+			],
+			[
+				"fi",
+				"first"
+			],
+			[
+				"final",
+				"finalResults\tconst"
+			],
+			[
+				"max",
+				"max_len\tlet"
+			],
+			[
+				"left",
+				"leftPointer\tlet"
+			],
+			[
+				"test",
+				"testTarget\tparameter"
+			],
+			[
+				"new",
+				"newAll\tconst"
+			],
+			[
+				"uni",
+				"uniqueFound\tlet"
+			],
+			[
+				"nu",
+				"nums\tparameter"
+			],
+			[
+				"one",
+				"oneNum\tparameter"
+			],
+			[
+				"move",
+				"moveZeroes\tvar"
+			],
+			[
+				"ite",
+				"itemIndex\tparameter"
+			],
+			[
+				"item",
+				"itemIndex"
+			],
+			[
+				"handle",
+				"handleItemClick\tconst"
+			],
+			[
+				"To",
+				"ToDoItem"
+			],
+			[
+				"onc",
+				"onClick\twarning"
+			],
+			[
+				"list",
+				"listToAdd\tconst"
+			],
+			[
+				"add",
+				"addToList\tconst"
+			],
+			[
+				"init",
+				"initialValues\tproperty"
+			],
+			[
+				"count",
+				"countObject\tconst"
+			],
+			[
+				"ine",
+				"indexOf\tmethod"
+			],
+			[
+				"index",
+				"indexOf\twarning"
+			],
+			[
+				"sub",
+				"subStringsComplete\tconst"
+			],
+			[
+				"kay",
+				"kayLetter\tparameter"
+			],
+			[
+				"inner",
+				"innerSub\tparameter"
+			],
+			[
+				"con",
+				"console\tvar"
+			],
+			[
+				"inn",
+				"innerItem\tparameter"
+			],
+			[
+				"cont",
+				"concat\tmethod"
+			],
+			[
+				"go",
+				"goForwards\tconst"
+			],
+			[
+				"pag",
+				"pagination\tvar"
+			],
+			[
+				"ele",
+				"elementData\tparameter"
+			],
+			[
+				"appe",
+				"appendArtToResults"
+			],
+			[
+				"cl",
+				"classList\twarning"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"getA",
+				"getAttribute\tmethod"
+			],
+			[
+				"curren",
+				"currentSearch\tlet"
+			],
+			[
+				"cur",
+				"currentSearch\tlet"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"co",
+				"console\tvar"
+			],
+			[
+				"fetc",
+				"fetchAicData\tconst"
+			],
+			[
+				"start",
+				"startPosition\tparameter"
+			],
+			[
+				"sing",
+				"getSingularHourGlass"
+			],
+			[
+				"to",
+				"toString\tmethod"
+			],
+			[
+				"user",
+				"userId\tproperty"
+			],
+			[
+				"s",
+				"session\tproperty"
+			],
+			[
+				"error",
+				"error\tnode_modules/node:console"
+			],
+			[
+				"usernam",
+				"username"
+			],
+			[
+				"UserRes",
+				"UserResponse\tclass"
+			],
+			[
+				"UserRE",
+				"UserResponse\tclass"
+			],
+			[
+				"string",
+				"string\tkeyword"
+			],
+			[
+				"Obje",
+				"ObjectType\talias"
+			],
+			[
+				"has",
+				"hashedPassword"
+			],
+			[
+				"User",
+				"UserResolver\tsource_modules"
+			],
+			[
+				"usern",
+				"username\tproperty"
+			],
+			[
+				"Bo",
+				"Boolean\tvar"
+			],
+			[
+				"find",
+				"findOne\tmethod"
+			],
+			[
+				"Con",
+				"Connection\tclass"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"Object",
+				"ObjectType\tnode_modules/typescript"
+			],
+			[
+				"get",
+				"getMigrator\tmethod"
+			],
+			[
+				"persist",
+				"persistAndFlush\tmethod"
+			],
+			[
+				"promis",
+				"promisify\tnode_modules/util"
+			],
+			[
+				"array",
+				"ArrayOfStrings"
+			],
+			[
+				"const",
+				"constants\texternal module name"
+			],
+			[
+				"join",
+				"joinString"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"import",
+				"Import Helper: Initialize / Setup / Update modules"
+			],
+			[
+				"Import Helper: Initialize / Setup / Update modules",
+				"Import Helper: Initialize / Setup / Update modules"
+			],
+			[
+				"impo",
+				"Import Helper: Initialize / Setup / Update modules"
+			],
+			[
+				"",
+				"Import Helper: Initialize / Setup / Update modules"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"import helper",
+				"Import Helper: Update source modules"
+			],
+			[
+				"instal",
+				"Import Helper: Initialize / Setup / Update modules"
+			],
+			[
+				"snippet",
+				"Snippet: Function"
+			],
+			[
+				"Import Helper: Initialize / Setup / Update modules ",
+				"Import Helper: Initialize / Setup / Update modules"
+			],
+			[
+				"packagecont",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"project",
+				"Project: Close"
+			],
+			[
+				"refresh",
+				"Project: Refresh Folders"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublimelint",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"package ",
+				"Package Control: Remove Package"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"prettier",
+				"JsPrettier: Format Code"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 532.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/sampleday.json",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/App.test.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/App.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/utils/constants.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/README.md",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/ADRs.md",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/index.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/services/open-weather-service.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/services/service.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/.prettierrc",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit-server/src/mikro-orm.config.ts",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/README.md",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/pages/index.tsx",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/utils/createUrqlClient.ts",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/pages/_app.tsx",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/components/NavBar.tsx",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/pages/register.tsx",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/pages/login.tsx",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/utils/betterUpdateQuery.ts",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/graphql/mutations/register.graphql",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/graphql/mutations/login.graphql",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/graphql/queries/me.graphql",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/graphql/fragments/RegularUser.graphql",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/graphql/queries/posts.graphql",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit-server/src/entities/User.ts",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit-server/src/index.ts",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit-server/README.md",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit-server/src/resolvers/user.ts",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/graphql/mutations/logout.graphql",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit-server/src/constants.ts",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit-server/tsconfig.json",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit-server/dist/resolvers/user.js",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/components/DarkModeSwitch.tsx",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/components/Wrapper.tsx",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/generated/graphql.tsx",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/utils/toErrorMap.ts",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/utils/toErrorMap.js",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/components/InputField.tsx",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/codegen.yml",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/package.json",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/tsconfig.json",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/pages/_document.tsx",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/index.ts",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/package.json",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/mikro-orm.config.ts",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/README.md",
+		"//wsl$/Alpine/home/alrund/desktop/practice/proudRecurseDupes.js",
+		"//wsl$/Alpine/home/alrund/desktop/practice/threesumbullshit.js",
+		"//wsl$/Alpine/home/alrund/desktop/practice/index.js",
+		"//wsl$/Alpine/home/alrund/desktop/practice/todo.md",
+		"/C/Users/jonan/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json",
+		"//wsl$/Alpine/home/alrund/desktop/practice/roman.js",
+		"//wsl$/Alpine/home/alrund/desktop/practice/package.json",
+		"//wsl$/Alpine/home/alrund/desktop/practice/hourglass.js",
+		"//wsl$/Alpine/home/alrund/desktop/todo/index.js",
+		"//wsl$/Alpine/home/alrund/desktop/todo/package.json",
+		"//wsl$/Alpine/home/alrund/desktop/todo/pages/index.js",
+		"//wsl$/Alpine/home/alrund/desktop/practice/findShortestSubstring.js",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/.gitignore",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/.next/cache/next-babel-loader/content-v2/sha512/1b/74/750dacf848150c2559df341b7806cd223adb1c840cbac9241272397967d78777f97b28f4bf7e4a9328290677c5d78c7f213ae7219acbc132ca5df2d8ab90",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/components/Container.tsx",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/theme.tsx",
+		"/C/Users/jonan/AppData/Roaming/Sublime Text 3/Packages/User/rn.sublime-snippet",
+		"//wsl$/Alpine/home/alrund/.zshrc",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/README.md",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/src/apiFetch.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/src/main.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/src/components/header.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/src/components/frame.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/src/util/apiFetch.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/package.json",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/src/components/fav.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/src/css/main.css",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/src/util/constants.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/server.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/src/icon.png",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/src/logo.png",
+		"/C/Users/jonan/Documents/JobSearch/STAR.md",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/src/index.html",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/src/aicFetch.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/src/cats.json",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/index.html",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/css/main.css",
+		"/C/Users/jonan/Downloads/html5-boilerplate_v8.0.0/index.html",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/js/init.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/js/main.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/src/main.css",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/js/aicFetch.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-aic/js/server.js",
+		"//wsl$/Alpine/home/alrund/desktop/practice/hackerrankbackups.js",
+		"/C/Users/jonan/Documents/JobSearch/TODO.md",
+		"/C/Users/jonan/Documents/JobSearch/jobs.md",
+		"/C/Users/jonan/Documents/JobSearch/search.md",
+		"/C/Users/jonan/Documents/JobSearch/linkedinskilldump2.md",
+		"/C/Users/jonan/Documents/JobSearch/linkedinskilldump.md",
+		"/C/Users/jonan/Documents/JobSearch/notes.md",
+		"/C/Users/jonan/Documents/JobSearch/julieaddress.md",
+		"/C/Users/jonan/Documents/JobSearch/fun.md",
+		"/C/Users/jonan/Documents/JobSearch/finished.js",
+		"/C/Users/jonan/Documents/JobSearch/backendbad.md",
+		"/C/Users/jonan/Documents/JobSearch/availability.md",
+		"/C/Users/jonan/Documents/JobSearch/algorithms.md",
+		"/C/Users/jonan/Documents/JobSearch/jobdescriptionsiwth some good tech.md.mdc",
+		"/C/Users/jonan/Documents/JobSearch/jobdescriptionsiwth some good tech.mdc",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/components/Footer.tsx",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/components/CTA.tsx",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/components/Hero.tsx",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/types.ts",
+		"//wsl$/Alpine/home/alrund/desktop/leddit-web/src/components/Main.tsx",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/resolvers/user.ts",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/entities/User.ts",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/resolvers/post.ts",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/tsconfig.json",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/le.sublime-project",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/le.sublime-workspace",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/le.sublime-workspace",
+		"/C/Users/jonan/AppData/Roaming/Sublime Text 3/Packages/ImportHelper/library/utils.py",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/lereddit.sublime-project",
+		"/C/Users/jonan/AppData/Roaming/Sublime Text 3/Packages/ImportHelper/README.md",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/entities/Posts.ts",
+		"/C/Users/jonan/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/constants.ts",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/resolvers/hello.ts",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/migrations/Migration20210320164727.ts",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/dist/index.js",
+		"//wsl$/Alpine/home/alrund/desktop/practice/walmart.md",
+		"/C/Users/jonan/Desktop/AndrewDavisWalmartLabs.js",
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/README.md"
+	],
+	"find":
+	{
+		"height": 62.0
+	},
+	"find_in_files":
+	{
+		"height": 244.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"daily",
+			"openWeatherData",
+			"WeatherTable",
+			"daily",
+			"data",
+			"dailyData",
+			"OPEN_WEATHER_API_KEY",
+			"ADRs",
+			"ADR",
+			"fetchExchange",
+			"ssrExchange",
+			"3000",
+			"localhost:3000",
+			"http://localhost:3000",
+			"http://localhost:3000/graphql",
+			"setMaxListeners",
+			"spinn",
+			"Provider",
+			"codeintel_live_disabled_languages",
+			"COOKIE_NAME",
+			"false",
+			"regularUser",
+			"cache",
+			"pl",
+			"ml",
+			"MeQuery",
+			"me",
+			"meQuery",
+			"me",
+			"Box",
+			"Wrapper",
+			"Register",
+			"register",
+			"Register",
+			"register",
+			"arg",
+			"length must be greater than 2",
+			"errors"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 50.0
+	},
+	"input":
+	{
+		"height": 84.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 210.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 96.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"resolver/user.ts",
+				"lereddit-server\\src\\resolvers\\user.ts"
+			],
+			[
+				"resolvers",
+				"lereddit-server\\dist\\resolvers\\user.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
