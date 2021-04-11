@@ -26,6 +26,7 @@ import {
   lookupLatLongGoogleAPI,
 } from './services';
 import sun from './sun.jpg';
+import { useHotkeys } from 'react-hotkeys-hook';
 
 const themeWithFont = extendTheme({
   styles: {
@@ -106,7 +107,7 @@ const App = () => {
     if (latitude && longitude) {
       getAddressGoogleAPI({ latitude, longitude }).then(({ results }) => {
         // Combine the string resulting from the Google API, not ideal, but achieves the text we want
-        // i.e "Richmond, VA". Fall back is lat / long
+        // i.e "Richmond, VA". Fall back is lat / long, which should usually be available.
         let finalAddressFormat = '' + latitude + longitude;
         if (results.length > 0) {
           finalAddressFormat =
@@ -120,6 +121,7 @@ const App = () => {
   }, [currrentLocation]); // Only run this effect when the currentLocation changes
 
   const handleSearchButtonClick = () => {
+    console.log(searchValue);
     setIsLoading(true);
     lookupLatLongGoogleAPI(searchValue).then(({ results }) => {
       if (results.length > 0) {
@@ -129,6 +131,11 @@ const App = () => {
       }
     });
   };
+
+  useHotkeys('enter', handleSearchButtonClick, { enableOnTags: 'INPUT' }, [
+    searchValue,
+    currrentLocation,
+  ]);
 
   return (
     <ChakraProvider theme={themeWithFont}>

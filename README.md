@@ -40,6 +40,10 @@ Creating an API key in Google Cloud Platform and enabling Geocoding services all
 
 > Reverse geocoding is the process of converting geographic coordinates into a human-readable address.
 
+#### Bonus
+
+Used [react-hotkeys-hook](https://github.com/JohannesKlauss/react-hotkeys-hook) to enable hitting "enter" to search.
+
 ---
 
 # Create React App README
