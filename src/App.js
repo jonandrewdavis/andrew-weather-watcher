@@ -88,9 +88,9 @@ const App = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
-    // navigator.geolocation.getCurrentPosition(({ coords }) =>
-    //   setCurrentLocation(coords)
-    // );
+    navigator.geolocation.getCurrentPosition(({ coords }) =>
+      setCurrentLocation(coords)
+    );
 
     // 3 seconds before a default kicks in, for fun
     setTimeout(() => {
