@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"lat",
+				"latitude\twarning"
+			],
+			[
+				"curr",
+				"currrentLocation\tconst"
+			],
+			[
+				"long",
+				"longitude\twarning"
+			],
+			[
 				"curre",
 				"currentLocation"
 			],
@@ -349,6 +361,10 @@
 		"selected_items":
 		[
 			[
+				"imp",
+				"Import Helper: Initialize / Setup / Update modules"
+			],
+			[
 				"import",
 				"Import Helper: Initialize / Setup / Update modules"
 			],
@@ -469,15 +485,16 @@
 	},
 	"file_history":
 	[
-		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/.gitignore",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/README.md",
 		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/utils/constants.js",
-		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/.env",
-		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/utils/d3ref.js",
 		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/App.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/services.js",
 		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/components/TempChart.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/utils/d3ref.js",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/.env",
+		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/.gitignore",
 		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/sampleday.json",
 		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/App.test.js",
-		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/README.md",
 		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/ADRs.md",
 		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/index.js",
 		"//wsl$/Alpine/home/alrund/desktop/andrew-weather-challenge/src/services/open-weather-service.js",
@@ -595,12 +612,11 @@
 		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/entities/Posts.ts",
 		"/C/Users/jonan/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/constants.ts",
-		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/resolvers/hello.ts",
-		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/migrations/Migration20210320164727.ts"
+		"//wsl$/Alpine/home/alrund/desktop/lereddit/src/resolvers/hello.ts"
 	],
 	"find":
 	{
-		"height": 58.0
+		"height": 57.0
 	},
 	"find_in_files":
 	{
@@ -615,6 +631,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"handleSearchButtonClick",
+			"searchValue",
+			"lookupLatLongGoogleAPI",
+			"hourly",
+			"lattitude",
+			"setSearchValue",
+			"data",
+			"search",
+			"handleSearchButtonClick",
+			"margin",
+			"svg",
+			"useD3",
+			"min",
+			"130",
 			"WeatherTable",
 			"renderChartFn",
 			"OPEN_WEATHER_API_KEY",
@@ -673,7 +703,7 @@
 	},
 	"incremental_find":
 	{
-		"height": 58.0
+		"height": 45.0
 	},
 	"input":
 	{
@@ -717,7 +747,7 @@
 	"pinned_build_system": "",
 	"replace":
 	{
-		"height": 96.0
+		"height": 86.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -762,7 +792,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 317.0,
+	"side_bar_width": 320.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -91,6 +91,16 @@ const App = () => {
     navigator.geolocation.getCurrentPosition(({ coords }) =>
       setCurrentLocation(coords)
     );
+
+    // 3 seconds before a default kicks in, for fun
+    setTimeout(() => {
+      if (!currrentLocation) {
+        setCurrentLocation({
+          latitude: 34.06346854579017, // L.A.
+          longitude: -118.35671378644912,
+        });
+      }
+    }, 3000);
   }, []); // Only run this effect once, on page load
 
   useEffect(() => {
